@@ -1,0 +1,11 @@
+# .devcontext - Local project configurations
+git_email=john.doe@enterprise_company.com
+git_name=John Doe (Enterprise Account)
+
+# Absolute path to the enterprise SSH key
+ssh_key=/home/user/.ssh/id_rsa_company
+
+# Custom AWS or API context environments for this project folder only
+env.AWS_PROFILE=company-prod-cluster
+env.DATABASE_URL=postgresql://localhost:5432/prod_replica
+env.NODE_ENV=development
